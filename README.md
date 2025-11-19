@@ -452,6 +452,3 @@ Built with Perl and a passion for simplicity.
 
 **Made by developers, for developers** • Star it if you find it useful!
 
-## License
-
-MIT
