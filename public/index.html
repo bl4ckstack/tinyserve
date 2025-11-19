@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TinyServe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <h1>TinyServe</h1>
+        <p>Lightweight HTTP Development Server</p>
+        <hr width="60%">
+    </center>
+
+    <table width="80%" align="center" border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <td bgcolor="#e0e0e0"><b>Status</b></td>
+            <td>Server is running</td>
+        </tr>
+        <tr>
+            <td bgcolor="#e0e0e0"><b>Version</b></td>
+            <td>1.0.0</td>
+        </tr>
+        <tr>
+            <td bgcolor="#e0e0e0"><b>Port</b></td>
+            <td>8080</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <center>
+        <h2>API Test</h2>
+        <form>
+            <input type="button" value="Test /api/status" onclick="testStatus()">
+            <input type="button" value="Test /api/echo" onclick="testEcho()">
+        </form>
+        <br>
+        <textarea id="api-response" rows="15" cols="80" readonly></textarea>
+    </center>
+
+    <hr width="60%">
+    <center>
+        <small>TinyServe v1.0.0 | Built with Perl</small>
+    </center>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+body {
+    font-family: "Courier New", monospace;
+    background-color: #c0c0c0;
+    color: #000000;
+    margin: 20px;
+}
+
+h1 {
+    color: #000080;
+    font-size: 32px;
+}
+
+h2 {
+    color: #000080;
+    font-size: 24px;
+}
+
+table {
+    background-color: #ffffff;
+    border-color: #000000;
+}
+
+input[type="button"] {
+    background-color: #c0c0c0;
+    border: 2px outset #ffffff;
+    padding: 5px 15px;
+    font-family: "Courier New", monospace;
+    cursor: pointer;
+    margin: 5px;
+}
+
+input[type="button"]:active {
+    border-style: inset;
+}
+
+#api-response {
+    font-family: "Courier New", monospace;
+    background-color: #ffffff;
+    border: 2px inset #808080;
+    padding: 10px;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-color: #000080;
+}
+
+a {
+    color: #0000ff;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #800080;
+}
